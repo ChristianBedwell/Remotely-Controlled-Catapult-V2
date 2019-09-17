@@ -2,10 +2,21 @@ Remotely-Controlled Catapult
 ===========================================================================================
 The objective of this project is to apply the fundamentals of embedded systems design to develop a remotely-controlled catapult, launching and reloading small-scale projectiles via web interface. The catapult project will fulfill a need to effectively reduce user intervention, with no need to reload, manually retract, or lock the catapult arm into place, but will only be required to fill the catapult with ammunition when it is empty. This is made possible by applying the latest technologies in software development, while emphasizing on an Internet-connected device. 
 
-Arduino Web Server Source Code
--------------------------------------------------------------------------------------------
-The Arduino web server source code, written in a C based language, continually listens for input from the web client and determines the behavior exhibited by each micro-servo on the catapult hardware. 
+Materials Checklist
+------------------------------------------------------------------------
+* [x] Arduino UNO REV3 (x1)
+* [x] Arduino Ethernet Shield 2 (x1)
+* [x] FS90MG Micro Metal Gear Servos (x3)
+* [x] Half-Sized Breadboard (x1)
+* [x] 9V Battery Pack (x1)
+* [x] External 5V Battery Pack (x1)
+* [x] Orange Male/Male Jumper Wires (x3)
+* [x] Red Male/Male Jumper Wires (x3)
+* [x] Brown Male/Male Jumper Wires (x3)
+* [x] Black Male/Male Jumper Wires (x1)
+* [x] Red Male/Female Jumper Wires (x1)
+* [x] Black Male/Female Jumper Wires (x1)
 
-Web Client Source Code
---------------------------------------------------------------------------------------------
-The Web client source code, written in Hypertext Markup Language (HTML) as well as Asynchronous JavaScript and XML (AJAX), allows the user to send button states (Reload, Arm, or Launch) to the web server in the form of HTTP GET request objects, while dynamically updating this status information on the screen.
+Device Construction
+------------------------------------------------------------------------
+The Arduino Ethernet Shield 2 is compatible with any Arduino board, so the Ethernet Shield male header pins should fit perfectly with the female header pins of the Arduino UNO REV3, just make sure that the male header pins aren’t bent when exerting force down on the Ethernet Shield to attach it to the Arduino board. 
